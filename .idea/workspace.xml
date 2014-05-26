@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb7fd10-c600-4245-93d5-c771d9522e3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functional_test.py" afterPath="$PROJECT_DIR$/functional_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/templates/home.html" afterPath="$PROJECT_DIR$/lists/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/tests.py" afterPath="$PROJECT_DIR$/lists/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/views.py" afterPath="$PROJECT_DIR$/lists/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="superlists.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +39,7 @@
       <file leaf-file-name="functional_test.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functional_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="8" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.42307693" vertical-offset="377" max-vertical-offset="1005">
+            <state line="55" column="81" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.8277592" vertical-offset="300" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
@@ -589,7 +584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functional_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="8" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.42307693" vertical-offset="377" max-vertical-offset="1005">
+        <state line="55" column="81" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.8277592" vertical-offset="300" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
