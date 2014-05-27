@@ -9,6 +9,8 @@ urlpatterns = patterns('',
     url(r'^lists/the-only-list-in-the-world/$', 'lists.views.view_list',
         name='view_list'
     ),
+    url(r'^lists/(?P<list_id>(\d+))/$', 'lists.views.view_list', name='view_list'),
+    url(r'^lists/(?P<list_id>(\d+))/add_item$', 'lists.views.add_item', name='add_item'),
     url(r'^lists/new$', 'lists.views.new_list', name='new_list'),
     # url(r'^blog/', include('blog.urls')),
 
