@@ -26,8 +26,6 @@ TEMPLATE_DEBUG = DEBUG
 # Needed when DEBUG=False
 ALLOWED_HOSTS = ['superlist-staging.nazmul.me']
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
