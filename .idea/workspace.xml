@@ -57,7 +57,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/superlists/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="4" selection-start="830" selection-end="830" vertical-scroll-proportion="0.06942393" vertical-offset="433" max-vertical-offset="1425">
+            <state line="25" column="25" selection-start="786" selection-end="786" vertical-scroll-proportion="0.5539143" vertical-offset="0" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
@@ -602,7 +602,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/superlists/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="4" selection-start="830" selection-end="830" vertical-scroll-proportion="0.06942393" vertical-offset="433" max-vertical-offset="1425">
+        <state line="25" column="25" selection-start="786" selection-end="786" vertical-scroll-proportion="0.5539143" vertical-offset="0" max-vertical-offset="1455">
           <folding />
         </state>
       </provider>
