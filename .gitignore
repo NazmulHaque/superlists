@@ -4,4 +4,4 @@ __pycache__
 .idea
 .DS_Store
 .idea/workspace.xml
-superlists/local_settings
+superlists/local_settings.py
