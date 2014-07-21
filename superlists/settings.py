@@ -20,11 +20,11 @@ BASE_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 SECRET_KEY = '(a6_z%cwe6=)^1f58yr5__mjs60za)!rlnler%auc!g=+hkb&0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = DEBUG
 # Needed when DEBUG=False
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['superlist-staging.nazmul.me']
 
 
 # Application definition
@@ -87,3 +87,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, '../static')
+
+try:
+    from superlists.local_settings import *
+except ImportError:
+        pass
