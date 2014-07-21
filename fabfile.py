@@ -50,6 +50,11 @@ def _update_database(source_folder):
         source_folder,
     ))
 
+def _restart_gunicorn(source_folder):
+    run('cd %s && sudo sudo restart gunicorn-superlist-staging.nazmul.me' % (
+        source_folder,
+    ))
+
 env.hosts = ['superlist-staging.nazmul.me',]
 def deploy():
     site_folder = '/home/%s/sites/%s' % (env.user, env.host)
@@ -60,3 +65,4 @@ def deploy():
     _update_virtualenv(source_folder)
     _update_static_files(source_folder)
     _update_database(source_folder)
+    _restart_gunicorn(source_folder)
